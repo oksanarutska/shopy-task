@@ -1,0 +1,60 @@
+.footer{
+	height: 60px;
+	display:flex;
+	justify-content: space-between;
+	&-item1{
+			padding-top:2%;
+			margin-left:13%;
+			color: #34404b;
+			font-size: 12px;
+			font-weight: 400;
+			text-align: right;
+			font-family: 'Ubuntu', sans-serif;
+			text-align: left;
+			display:flex;
+			&__address-email{
+					padding-left:3%;
+					padding-right:5%;
+		  }
+			&__address-number{
+					width: 6%;
+		  }
+			&__message{
+					padding-bottom:20px;
+					padding-right:3%;
+		 }
+			&__phone{
+					padding-bottom:20px;
+					padding-right:6%;
+		  }
+  }
+	&-item2{
+			padding-top:2%;
+			display: flex;
+			margin-right:13%;
+			&__icons-twitter{
+					width: 14px;
+					height: 11px;
+					margin-right: 15px;
+					background: url(../../images/twitter.svg) center center no-repeat;
+		  }
+			&__icons-face{
+					width: 6px;
+					height: 11px;
+					margin-right: 15px;
+					background: url(../../images/face.svg) center center no-repeat;
+		  }
+			&__icons-google{
+					width: 14px;
+					height: 11px;
+					margin-right: 15px;
+					background: url(../../images/google.svg) center center no-repeat;
+		  }
+			&__icons-instagram{
+					width: 11px;
+					height: 11px;
+					margin-right: 15px;
+					background: url(../../images/insta.svg) center center no-repeat;
+		  }
+  }
+}

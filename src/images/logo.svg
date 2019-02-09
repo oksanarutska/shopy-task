@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="118px" height="23px" viewBox="0 0 118 23">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 30px;
+  font-family: "TitilliumText22L-XBold";
+  fill: rgb(51,64,75);
+}
+.style1 {
+  font-size: 40px;
+  font-family: "TitilliumText22L-XBold";
+  fill: rgb(51,64,75);
+}
+]]></style>
+<text transform="translate(117.27,22.45)"><tspan x="-108.65 -93.86" fill="rgb(51,64,74)" class="style0">SH</tspan><tspan x="-74.30" fill="rgb(51,64,74)" class="style1">     </tspan><tspan x="-31.90 -16.21" fill="rgb(51,64,74)" class="style0">PY</tspan></text></svg>
