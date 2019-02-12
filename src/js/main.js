@@ -13,6 +13,7 @@ document.addEventListener('click', (e) => {
 	}
 
 	if (e.target.matches('#minus')) {
+		counter--;
 		if (NumberCount) {
 			NumberCount.innerHTML = `${counter}`;
 		}
