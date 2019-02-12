@@ -173,28 +173,28 @@
   width: 14px;
   height: 11px;
   margin-right: 15px;
-  background: url(../../images/twitter.svg) center center no-repeat;
+  background: url(../images/twitter.svg) center center no-repeat;
 }
 
 .footer-item2__icons-face {
   width: 6px;
   height: 11px;
   margin-right: 15px;
-  background: url(../../images/face.svg) center center no-repeat;
+  background: url(../images/face.svg) center center no-repeat;
 }
 
 .footer-item2__icons-google {
   width: 14px;
   height: 11px;
   margin-right: 15px;
-  background: url(../../images/google.svg) center center no-repeat;
+  background: url(../images/google.svg) center center no-repeat;
 }
 
 .footer-item2__icons-instagram {
   width: 11px;
   height: 11px;
   margin-right: 15px;
-  background: url(../../images/insta.svg) center center no-repeat;
+  background: url(../images/insta.svg) center center no-repeat;
 }
 
 * {
@@ -302,7 +302,7 @@
   margin-left: 30px;
   width: 18px;
   height: 20px;
-  background: url(../../images/search.svg) center center no-repeat;
+  background: url(../images/search.svg) center center no-repeat;
 }
 
 .header-item3__icon-user {
@@ -310,7 +310,7 @@
   margin-left: 30px;
   width: 20px;
   height: 21px;
-  background: url(../../images/user.svg) center center no-repeat;
+  background: url(../images/user.svg) center center no-repeat;
 }
 
 .header-item3__icon-cart {
@@ -319,7 +319,7 @@
   height: 17px;
   margin-left: 30px;
   margin-right: 10px;
-  background: url(../../images/cart.svg) center center no-repeat;
+  background: url(../images/cart.svg) center center no-repeat;
 }
 
 .product-card {
@@ -428,7 +428,7 @@
   height: 19px;
   margin-right: 20px;
   margin-top: 10px;
-  background: url(../../images/icon-share.svg) center center no-repeat;
+  background: url(../images/icon-share.svg) center center no-repeat;
 }
 
 .product-card-item2__information2_icon-add {
@@ -436,7 +436,7 @@
   height: 19px;
   margin-right: 20px;
   margin-top: 10px;
-  background: url(../../images/add.svg) center center no-repeat;
+  background: url(../images/add.svg) center center no-repeat;
 }
 
 .product-card-item2__information2_icon-like {
@@ -444,7 +444,7 @@
   height: 21px;
   margin-right: 25px;
   margin-top: 10px;
-  background: url(../../images/like.svg) center center no-repeat;
+  background: url(../images/like.svg) center center no-repeat;
 }
 
 .product-card-item2__information2_button {
