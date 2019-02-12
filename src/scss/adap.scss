@@ -30,6 +30,7 @@
 	.header{
 			flex-wrap: wrap;
 			height: auto;
+			border:0 !important;
  	}
 	.header-item2, .header-item3{
 			margin: 0 auto!important;
@@ -74,6 +75,7 @@
 @media (min-width: 310px) and (max-width: 500px) {
 	.header{
 			width: 100%;
+			border:0 !important;
  	}
 	a:hover .big {
 			left:120px !important;

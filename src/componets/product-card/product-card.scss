@@ -1,13 +1,16 @@
 .product-card{
 	display:flex;
+
 	&-item2{
 			font-family: 'Ubuntu', sans-serif;
+			
 			&__header{
 					font-size: 52px;
 					font-weight: 900;
 					color: #ff5912;
 					text-transform: uppercase;
 					padding-bottom: 4%;
+					margin-top:100px;
 		  }
 			&__name-product{
 					color: #3c4751;
@@ -37,12 +40,15 @@
 					border:0;
 		  }
 			&__information{
+				width: 612px;
 					color: #34404b;
 					font-size: 18px;
 					display:flex;
 					&_choose{
 							margin-left:10%;
-				  }
+					}
+				
+				
 					&_button{
 							border:0;
 							font-size: 14px;
@@ -70,13 +76,14 @@
 							color: #34404b;
 							font-size: 20px;
 							font-weight: 900;
-							margin-right:19%;
+							margin-right:30%;
+							
 							margin-top:10px;
 				  }
 					&_icon-share{
 							width: 19px;
 							height: 19px;
-							margin-left:25px;
+					
 							margin-right:20px;
 							margin-top:10px;
 							background: url(../../images/icon-share.svg) center center no-repeat;
@@ -114,13 +121,14 @@
 		  }
   }
 	&-item1{
-			width: 40%;
+		
 			padding-left:5%;
 			position: relative;
 			height: 400px;
-			width: 960px;
 			overflow: hidden;
 			margin: 0 auto;
+			margin-top:150px;
+			margin-right:20px;
   }
 }
 .product-card-item1 a {
@@ -160,3 +168,5 @@ a:hover .big {
 button:focus {
 	outline:none;
 }
+
+

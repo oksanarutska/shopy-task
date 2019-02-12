@@ -6,6 +6,7 @@
     <title>Shopy</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700">
     <link rel="stylesheet" href="./css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <body>
     <div class="footer">
@@ -21,7 +22,7 @@
       <div class="header-item3"><a class="header-item3__icon-search" href="javascript:void(0)"></a><a class="header-item3__icon-user" href="javascript:void(0)"></a><a class="header-item3__icon-cart" href="javascript:void(0)"></a><img class="header-item3__icon-bg-counter" alt="icon" src="images/bg-counter.svg"><img class="header-item3__icon-counter" alt="icon" src="images/counter.svg"></div>
     </div>
     <div class="product-card">
-      <div class="product-card-item1"><a href="#"><img class="big" src="images/slider2.jpg"><img class="thumb" src="images/slider-2.svg"></a><a href="#"><img class="big" src="images/slider3.jpg"><img class="thumb" src="images/slider-3.svg"></a><a href="#"><img class="big" src="images/slider-1.jpg"><img class="thumb" src="images/slide-1.svg"></a></div>
+      <div class="product-card-item1"><a href="#"><img class="big" src="images/slider2.jpg"><img class="thumb" src="images/slider-3.svg"></a><a href="#"><img class="big" src="images/slider3.jpg"><img class="thumb" src="images/slider-2.svg"></a><a href="#"><img class="big" src="images/slider-1.jpg"><img class="thumb" src="images/slide-1.svg"></a></div>
       <div class="product-card-item2">
         <div class="product-card-item2__header">full winter kit</div>
         <div class="product-card-item2__name-product">Half Jacket + Skiny Trousers + Boot leather</div>
@@ -38,9 +39,9 @@
           <div class="product-card-item2__information_text">-</div>
           <button class="product-card-item2__information_button">XL</button>
           <div class="product-card-item2__information_choose">Choose Quanity</div>
-          <button class="product-card-item2__information_button">+</button>
+          <button class="product-card-item2__information_button" id="plus">+</button>
           <div class="product-card-item2__information_number">3</div>
-          <button class="product-card-item2__information_button">-</button>
+          <button class="product-card-item2__information_button" id="minus">-</button>
         </div>
         <hr class="product-card-item2__hr">
         <div class="product-card-item2__information2">
@@ -49,5 +50,6 @@
         </div>
       </div>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
