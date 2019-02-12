@@ -16,7 +16,7 @@
   &-item2{
       display:flex;
       &__link{
-          margin-left:0px;
+     
           text-decoration: none;
           padding-left:15px;
           margin-top:48px;
@@ -32,6 +32,7 @@
   &-item1{
       margin-left:11.5%;
       margin-top:40px;
+      margin-right: -150px;
       &_logo-sh{
           position:absolute;
           z-index:10;
@@ -69,7 +70,7 @@
           z-index:30;
           margin-top:6px;
           padding-left:137px;
-          margin-top:48px;
+          margin-top:46px;
       }
       &__icon-search{
           margin-top:50px;

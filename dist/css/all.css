@@ -173,28 +173,28 @@
   width: 14px;
   height: 11px;
   margin-right: 15px;
-  background: url(../images/twitter.svg) center center no-repeat;
+  background: url(../../images/twitter.svg) center center no-repeat;
 }
 
 .footer-item2__icons-face {
   width: 6px;
   height: 11px;
   margin-right: 15px;
-  background: url(../images/face.svg) center center no-repeat;
+  background: url(../../images/face.svg) center center no-repeat;
 }
 
 .footer-item2__icons-google {
   width: 14px;
   height: 11px;
   margin-right: 15px;
-  background: url(../images/google.svg) center center no-repeat;
+  background: url(../../images/google.svg) center center no-repeat;
 }
 
 .footer-item2__icons-instagram {
   width: 11px;
   height: 11px;
   margin-right: 15px;
-  background: url(../images/insta.svg) center center no-repeat;
+  background: url(../../images/insta.svg) center center no-repeat;
 }
 
 * {
@@ -230,7 +230,6 @@
 }
 
 .header-item2__link {
-  margin-left: 0px;
   text-decoration: none;
   padding-left: 15px;
   margin-top: 48px;
@@ -247,6 +246,7 @@
 .header-item1 {
   margin-left: 11.5%;
   margin-top: 40px;
+  margin-right: -150px;
 }
 
 .header-item1_logo-sh {
@@ -294,7 +294,7 @@
   z-index: 30;
   margin-top: 6px;
   padding-left: 137px;
-  margin-top: 48px;
+  margin-top: 46px;
 }
 
 .header-item3__icon-search {
@@ -302,7 +302,7 @@
   margin-left: 30px;
   width: 18px;
   height: 20px;
-  background: url(../images/search.svg) center center no-repeat;
+  background: url(../../images/search.svg) center center no-repeat;
 }
 
 .header-item3__icon-user {
@@ -310,7 +310,7 @@
   margin-left: 30px;
   width: 20px;
   height: 21px;
-  background: url(../images/user.svg) center center no-repeat;
+  background: url(../../images/user.svg) center center no-repeat;
 }
 
 .header-item3__icon-cart {
@@ -319,7 +319,7 @@
   height: 17px;
   margin-left: 30px;
   margin-right: 10px;
-  background: url(../images/cart.svg) center center no-repeat;
+  background: url(../../images/cart.svg) center center no-repeat;
 }
 
 .product-card {
@@ -365,24 +365,31 @@
 
 .product-card-item2__hr {
   background-color: #edeff1;
-  width: 90%;
   height: 1px;
   margin-top: 40px;
   margin-bottom: 40px;
   border: 0;
+  margin-right: 15%;
 }
 
 .product-card-item2__information {
-  width: 612px;
+  margin-right: 15%;
   color: #34404b;
   font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .product-card-item2__information_choose {
   margin-left: 10%;
+}
+
+.product-card-item2__information_text {
+  text-align: left;
 }
 
 .product-card-item2__information_button {
@@ -405,14 +412,18 @@
   margin-left: 10px;
   color: #ff5912;
   font-size: 18px;
+  margin-top: 2px;
 }
 
 .product-card-item2__information2 {
-  width: 612px;
+  margin-right: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .product-card-item2__information2_price {
@@ -428,7 +439,7 @@
   height: 19px;
   margin-right: 20px;
   margin-top: 10px;
-  background: url(../images/icon-share.svg) center center no-repeat;
+  background: url(../../images/icon-share.svg) center center no-repeat;
 }
 
 .product-card-item2__information2_icon-add {
@@ -436,7 +447,7 @@
   height: 19px;
   margin-right: 20px;
   margin-top: 10px;
-  background: url(../images/add.svg) center center no-repeat;
+  background: url(../../images/add.svg) center center no-repeat;
 }
 
 .product-card-item2__information2_icon-like {
@@ -444,7 +455,7 @@
   height: 21px;
   margin-right: 25px;
   margin-top: 10px;
-  background: url(../images/like.svg) center center no-repeat;
+  background: url(../../images/like.svg) center center no-repeat;
 }
 
 .product-card-item2__information2_button {
@@ -490,37 +501,27 @@
   height: 200px;
 }
 
-.big {
-  position: absolute;
-  top: 900px;
-  left: 20px;
-  -webkit-transition: top 0.4s ease;
-  transition: top 0.4s ease;
-}
-
-.featured {
-  top: 260px;
-  left: 20px;
-  z-index: -3;
-}
-
-a:hover .thumb {
-  background-color: #ff5912;
-}
-
 .thumb {
   width: 95px;
   height: 69px;
   margin-top: 250px;
 }
 
-a:hover .big {
-  top: 20px;
-  left: 220px;
-}
-
 button:focus {
   outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a.big {
+  font-size: 16px;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
 }
 
 body {
